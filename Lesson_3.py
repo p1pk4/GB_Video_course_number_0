@@ -11,7 +11,7 @@ my_list_2 = set(my_list_2)
 print(my_list_1 - my_list_2)
 
 #winners
-print('СОРЕВНОВАНИЯ ПО PYTHON!')
+print('СОРЕВНОВАНИЯ ПО PYTHON!!!')
 count = int(input('Введите количество участников: '))
 i = count
 members = []
