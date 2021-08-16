@@ -36,6 +36,25 @@ print(my_list.index(-14, 13)) #Начнет искать элемент "-14" с
 #Метод count
 print(my_list.count(1))#Выведет кол-во 1 в списке(-14) тоже посчитает!
 
+#Метод sort
+my_list1 = [2, 5, 2, 1, -0.3, 3, 4]
+my_list1.sort()
+print(my_list1)
+    #sort наоборот
+my_list2 = [1, 2, 3, 4, 5]    
+my_list2.sort(reverse = True) #5,4,3,2,1
+print(my_list2[:2])
+    #Можно сортировать строки
+my_list_names = ['Adam', 'Treho', 'Alex', 'Serega', 'Johny']
+my_list_names.sort()
+print(my_list_names)
+
+#append добавляет элемент в список
+my_list_names.append('Chavk')
+print(my_list_names)
+
+my_list1.append(123)
+print(my_list1)
 '''
 #Цикл
 for word in proposal:
