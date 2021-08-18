@@ -55,6 +55,25 @@ print(my_list_names)
 
 my_list1.append(123)
 print(my_list1)
+
+#Метод extend. Преимущество на append в том, что extend может добавлять списки
+my_list_digitals = [1, 3, 5, 7, 9]
+my_list_digitals.extend([2,4,6,8])
+my_list_digitals.sort()
+print(my_list_digitals)
+
+#remove
+my_list_digitals.remove(2)
+print(my_list_digitals) #2 не вернется
+
+#pop. Удалаяет значение в инексе метода и возвращает удаленное значение 
+my_ls_string = ['a', 'b', 'c', 'd']
+my_ls_string.pop(1)
+print(my_ls_string)
+
+#isert. Вставляет элемент перед указанным индексом
+my_ls_string.insert(2,['b', 'a'])
+print(my_ls_string)
 '''
 #Цикл
 for word in proposal:
