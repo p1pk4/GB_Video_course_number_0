@@ -74,6 +74,8 @@ print(my_ls_string)
 #isert. Вставляет элемент перед указанным индексом
 my_ls_string.insert(2,['b', 'a'])
 print(my_ls_string)
+
+#Метод clear очищает список
 '''
 #Цикл
 for word in proposal:
