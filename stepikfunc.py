@@ -18,3 +18,6 @@ b = int(input())
 num = (3*((a + b)**3)) + (275*(b**2)) - (127*a) - 41
 print(num)
 
+num1 = int(input())
+print('Следующее за числом {} число: {}'.format(num1, num1 + 1))
+print('Для числа {} предыдущее число: {}'.format(num1, num1 - 1))
