@@ -11,6 +11,8 @@
 3
  ,S=6a 
 2.
+
+
 '''
 length = int(input())
 volume = length ** 3
